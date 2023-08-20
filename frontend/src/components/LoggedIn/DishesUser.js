@@ -7,7 +7,7 @@ import axios from "axios";
 import { useAlert } from "react-alert";
 import SortDishes from "./SortDishes";
 import { useState } from "react";
-const ENDPOINT='https://foodora-api.onrender.com'
+const ENDPOINT='https://foodora-api.onrender.com/'
 
 function DishesUser(){
     const restaurant=useLoaderData();

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './Account.css';
 import { useAlert } from 'react-alert';
 import axios from 'axios';
-const ENDPOINT='https://foodora-api.onrender.com'
+const ENDPOINT='https://foodora-api.onrender.com/'
 
 const RateForm=(props)=>{
     const item=props.pastorder;

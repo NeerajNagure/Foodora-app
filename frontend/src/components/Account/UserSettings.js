@@ -4,7 +4,7 @@ import Cookies from "js-cookie";
 import axios from "axios";
 import {  useNavigate } from "react-router-dom";
 import { useAlert } from "react-alert";
-const ENDPOINT='https://foodora-api.onrender.com'
+const ENDPOINT='https://foodora-api.onrender.com/'
 
 const UserSettings=(props)=>{
     const navigate=useNavigate();

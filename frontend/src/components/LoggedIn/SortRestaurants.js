@@ -2,7 +2,7 @@ import './UserLoggedIn.css';
 import { json } from 'react-router-dom';
 import axios from 'axios';
 import { useState } from 'react';
-const ENDPOINT='https://foodora-api.onrender.com'
+const ENDPOINT='https://foodora-api.onrender.com/'
 
 const SortRestaurants=(props)=>{
      const[active,setActive]=useState(['']);
