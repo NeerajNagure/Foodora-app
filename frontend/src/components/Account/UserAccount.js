@@ -5,7 +5,7 @@ import Cookies from "js-cookie";
 import axios from "axios";
 import { json, useLoaderData } from "react-router-dom";
 import SideNav from "./SideNav";
-const ENDPOINT='http://127.0.0.1:7000/api/v1/'
+const ENDPOINT='https://foodora-api.onrender.com'
 
 function UserAccount(){
     const data=useLoaderData();

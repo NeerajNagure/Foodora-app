@@ -6,7 +6,7 @@ import Cookies from "js-cookie";
 import { json,useLoaderData,useParams } from "react-router-dom";
 import { useState } from "react";
 import { useAlert } from "react-alert";
-const ENDPOINT='http://127.0.0.1:7000/api/v1/'
+const ENDPOINT='https://foodora-api.onrender.com'
 
 function CartPage(){
     const items=useLoaderData();

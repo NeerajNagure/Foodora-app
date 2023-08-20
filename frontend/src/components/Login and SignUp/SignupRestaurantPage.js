@@ -5,7 +5,7 @@ import axios from "axios";
 import './LoginSignup.css';
 import { useAlert } from "react-alert";
 import Cookies from "js-cookie";
-const ENDPOINT='http://127.0.0.1:7000/api/v1/'
+const ENDPOINT='https://foodora-api.onrender.com'
 
 function SignupRestaurantPage(){
     const alert=useAlert();

@@ -5,7 +5,7 @@ import { Link,Form, useActionData, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useAlert } from "react-alert";
 import Cookies from "js-cookie";
-const ENDPOINT='http://127.0.0.1:7000/api/v1/'
+const ENDPOINT='https://foodora-api.onrender.com'
 
 function SignupUserPage(){
     const alert=useAlert();

@@ -5,7 +5,7 @@ import './ListDish.css';
 import { Form, useNavigate, useActionData, useParams } from "react-router-dom";
 import Cookies from "js-cookie";
 import { useAlert } from "react-alert";
-const ENDPOINT='http://127.0.0.1:7000/api/v1/'
+const ENDPOINT='https://foodora-api.onrender.com'
 
 function ListDish(){
     const navigate=useNavigate();
