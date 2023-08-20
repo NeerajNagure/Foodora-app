@@ -5,10 +5,12 @@ import Cookies from "js-cookie";
 import axios from "axios";
 import { json,useLoaderData,Link,useParams } from "react-router-dom";
 import { useAlert } from "react-alert";
+import { useState } from "react";
 const ENDPOINT='https://foodora-api.onrender.com/api/v1/'
 
 function RestaurantLoggedIn(){
-    const dishes=useLoaderData().dishes;
+    const initialdishes=useLoaderData().dishes;
+    const [dishes,setDishes]=useState(initialdishes);
     const alert=useAlert();
     const params=useParams();
 
@@ -18,7 +20,8 @@ function RestaurantLoggedIn(){
         try{
             const res=await axios.delete(ENDPOINT+'dishes/'+dishid);
             if(res.status===204){
-                window.location.reload();
+                dishes.splice(e.target.value,1);
+                setDishes([...dishes]);
             }
         }
         catch(err){

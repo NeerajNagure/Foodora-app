@@ -37,7 +37,8 @@ function CartPage(){
          try{
             const res=await axios.delete(ENDPOINT+'cartItems/'+itemID);
             if(res.status===204){
-                window.location.reload();
+                cartItems.splice(e.target.value,1);
+                setCartItems([...cartItems]);
             }
          }
          catch(err){

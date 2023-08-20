@@ -53,6 +53,7 @@ const UserSettings=(props)=>{
                 Cookies.set('jwt',res.data.token,{expires:new Date(
                     Date.now() +  24 * 60 * 60 * 1000
                   )});
+                  navigate('/');
                 setTimeout(()=>{window.location.reload()},4000);  
              }
              else{

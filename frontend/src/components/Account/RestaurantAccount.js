@@ -4,13 +4,14 @@ import FooterAll from "../UI/FooterAll";
 import { useState } from "react";
 import Cookies from "js-cookie";
 import axios from "axios";
-import { json, useLoaderData } from "react-router-dom";
+import { json, useLoaderData, useNavigate } from "react-router-dom";
 import { useAlert } from "react-alert";
 import SideNav from "./SideNav";
 const ENDPOINT='https://foodora-api.onrender.com/api/v1/'
 
 const RestaurantAccount=()=>{
     const restaurant=useLoaderData();
+    const navigate=useNavigate();
     const restaurantid=restaurant.id;
     const alert=useAlert();
     const [inputs,setInputs]=useState({name:restaurant.name,username:restaurant.username});
@@ -55,6 +56,7 @@ const RestaurantAccount=()=>{
                 Cookies.set('jwt',res.data.token,{expires:new Date(
                     Date.now() +  24 * 60 * 60 * 1000
                   )});
+                  navigate('/');
                 setTimeout(()=>{window.location.reload()},4000);  
              }
              else{
