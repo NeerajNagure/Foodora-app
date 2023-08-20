@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Assistant',sans-serif;
+}
+.logo-1{
+    display: flex;
+    height: 70px;
+    background-color: white;
+}
+#navbar-1{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    white-space: nowrap;
+}
+.nav-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right:25% ;
+}
+.sign-1{
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 2px;
+    color: rgb(219, 57, 84);
+}
+.nav-ele{
+    text-decoration: none;
+    margin-right: 40px;
+    padding: 5px;
+    color: rgb(219, 57, 84);
+}
+.cart{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 100%;
+    text-decoration: none;
+    color:rgb(219, 57, 84) ;
+    /* margin-right: 1rem; */
+    display: flex;
+    align-items: center;
+    margin-right:20px;
+    padding-right: 5px;
+}
+.cart img{
+    height: 2rem;
+    padding-right: 4px;
+}
+.account{
+    text-decoration: none;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 110%;
+    display: flex;
+    align-items: center;
+    color: rgb(219, 57, 84);
+    margin: 1rem;
+}
+.account img{
+    height: 1.7rem;
+    padding-right:1px;
+    margin-right: 3px;
+}
+.logout img{
+    height: 1.4rem;
+    padding-right:1px;
+    margin-right: 3px;
+}
+.logout{
+    text-decoration: none;
+    background-color: white;
+    padding-right: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(219, 57, 84);
+    margin: 1rem;
+}

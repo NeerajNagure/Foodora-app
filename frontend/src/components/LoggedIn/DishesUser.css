@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Assistant',sans-serif;
+}
+.background-dishes{
+    background-color: white;
+}
+.container-3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    background-color: white;
+    padding: 2.5rem;
+    margin-right: 10%;
+    margin-top:5%;
+    border-radius: 3px;
+}
+.dish-info1{
+    font-size: 140%;
+    margin-left: 1%;
+    padding: 1%;
+}
+.dish-info1 img{
+    margin: 1%;
+    height: 1.5rem;
+    width: 1.8rem;
+}
+.dish-info2{
+    font-size: 110%;
+    margin-left: 2%;
+    padding: 0.5%;
+}
+.dish-info3{
+    color: grey;
+    margin-left:2%;
+    padding:0.5%;
+    width: 90%;
+}
+.dish-btn{
+    background-color:rgb(219, 57, 84) ;
+    color:white;
+    border: 3px solid rgb(219, 57, 84);
+    margin: 13.5px;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.dish-btn:hover{
+    background-color: white;
+    color: rgb(219, 57, 84);
+}
+.dish-card1{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin:2%;
+    padding: 1%;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.334);
+}
+.dish-card{
+display: flex;
+flex-direction: column;
+}
+.filter1 img{
+    height: 1.7rem;
+}
+.filter1{
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1.2px solid #bababa6a;
+   margin: 0rem 1.2rem;
+   font-size: 130%;
+}
+.heading-6{
+    color:rgb(219, 57, 84) ;
+    font-size: 170%;
+    margin: 3rem 3rem;
+}
+.filter-btn1{
+    border: none;
+    background-color: white;
+    padding: 0.6rem 0rem;
+    cursor: pointer;
+    margin: 0rem 3rem;
+    font-size: 100%;
+    color: rgb(219, 57, 84);
+}
+.filter-btn1--active{
+    border-bottom: 2px solid red;
+}
+.filter-txt2{
+    display: flex;
+    padding: 0.6rem 0rem;
+    color: #7c7c7c;
+    margin-left: 2rem;
+}

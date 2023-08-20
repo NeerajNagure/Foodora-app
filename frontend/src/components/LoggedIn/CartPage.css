@@ -1,0 +1,104 @@
+.background-cart{
+    background-image: url('./../img/bg-2.jpg');
+   background-size:100% 100%;
+   background-repeat: no-repeat;
+   background-color: rgba(0, 0, 0, 0.343);
+   background-blend-mode: darken; 
+}
+.heading-4{
+    font-size: 150%;
+    color: rgb(219, 57, 84);
+    margin: 0.7rem;
+    padding: 0.2rem;
+}
+.cart-card1{
+    margin:1%;
+}
+.cart-card{
+    display: flex;
+    list-style-type: none;
+    margin:0.5rem;
+    padding: 1rem;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.334);
+}
+.cart-info{
+    margin-left: 1.5rem;
+}
+.cart-info1{
+    font-size: 130%;
+    margin: 0.5%;
+}
+.cart-info2{
+    font-size: 120%;
+    margin-left: 1%;
+}
+.cart-info1 img{
+    max-width: 3%;
+}
+.cart-img{
+    padding: 1%;
+    max-width: 30%;
+    max-height: 12rem;
+}
+.cart-btn{
+    background-color:rgb(219, 57, 84) ;
+    font-size: 80%;
+    color:white;
+    border: 3px solid rgb(219, 57, 84);
+    margin: 2%;
+    padding: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.cart-btn:hover{
+    background-color: white;
+    color: rgb(219, 57, 84);
+}
+.cart-qty{
+    margin-left: 1%;
+    font-size: 120%;
+}
+.qty-btn1{
+    display: inline;
+}
+.qty-btn{
+    color: rgb(219, 57, 84);
+    font-size: 150%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.total{
+    display: flex;
+    font-size: 180%;
+    margin: 3%;
+}
+.amount{
+    padding-left: 3%;
+    color:rgb(219, 57, 84) ;
+}
+.cart-pay-btn{
+    width: 15%;
+    background-color:rgb(219, 57, 84) ;
+    font-size: 100%;
+    color:white;
+    border: 3px solid rgb(219, 57, 84);
+    margin-left: 3%;
+    padding: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.cart-pay-btn:hover{
+    background-color: white;
+    color: rgb(219, 57, 84);
+}

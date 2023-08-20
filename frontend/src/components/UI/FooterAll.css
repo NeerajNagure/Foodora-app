@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Assistant',sans-serif;
+}
+footer{
+    border-top: 1px solid rgba(143, 143, 143, 0.481);
+    margin-top: 25%;
+    padding: 5px;
+    padding-bottom: 5%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.logo a,.logo{
+    display: flex;
+    height: 70px;
+    background-color: white;
+}
+.supp{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+.account{
+    text-decoration: none;
+    color:rgb(219, 57, 84) ;
+    margin-left: 10%;
+}
+.sup{
+    margin-left: 10%;
+}

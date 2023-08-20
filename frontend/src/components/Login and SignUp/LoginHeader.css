@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Assistant',sans-serif;
+}
+.logo-3 a{
+    display: flex;
+    height: 70px;
+    background-color: white;
+}
+#navbar-3{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.nav-3{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 54%;
+}
+.sign-3{
+    margin: 20px;
+    padding: 5px;
+    font-size: 1.1rem;
+}
+.sign-3{
+    text-decoration: none;
+    color: rgb(219, 57, 84);
+}

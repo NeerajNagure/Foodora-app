@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Assistant',sans-serif;
+}
+.text{
+    text-align: left;
+    font-size: 2rem;
+}
+.info{
+    color: white;
+
+}
+.cust-img{
+    height: 18rem;
+
+}
+.rest-img{
+    height: 20rem;
+}
+.customer-card{
+    display: flex;
+    margin: 10rem 3rem;
+}
+.customer-card-txt{
+    font-size: 300%;
+    color:rgb(219, 57, 84);
+}
+.customer-card-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 8rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+.container{
+    display: block;
+}
+.link{
+    margin:1.5rem 6.5rem;
+    border: 3px solid rgb(219, 57, 84);
+    background-color:rgb(219, 57, 84);
+    border-radius: 20px;
+    margin-top:1;
+    padding: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+.link:hover{
+    background-color: white;
+    color:rgb(219, 57, 84) ;
+}
+.container-1{
+    display: flex;
+    margin-top: 3rem;
+    margin-right: 1.5rem;
+}
+.container-1 img{
+    width:30rem;
+}
+.container-1-txt{
+    margin:4rem;
+}
+.container-1-heading{
+    font-size: 350%;
+    font-weight: bold;
+    color:rgb(219, 57, 84);
+}
+.container-1-txt1{
+    margin-top: 2rem;
+    font-size: 150%;
+}

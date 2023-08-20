@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Assistant',sans-serif;
+}
+.background-UserLoggedIn{
+    background-color: white;
+}
+.restaurant-card{
+    border-radius: 3px;
+    margin: 1%;
+    padding: 1rem;
+    padding-bottom: 7.5rem;
+    background-color: rgba(219, 57, 84, 0);
+    height: 10rem;
+    width: 16rem;
+    text-decoration: none;
+    color: black;
+    display:flex;
+    flex-direction: column;
+}
+.restaurant-card:hover{
+    box-shadow: 3px 3px 13px  rgba(219, 57, 84, 0.523);
+    transition: 0.4s;
+}
+.restaurant-card img{
+height: 100%;
+width: 100%;
+}
+.container{
+    display: flex;
+    margin-top: 2%;
+    font-size: 120%;
+    padding: 2%;
+    justify-content: space-between;
+}
+.star{
+    background-color: green;
+    color:white;
+    height: 90%;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 100%;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.star img{
+    height: 12px;
+    width: 12px;
+}
+.faint{
+    color: grey;
+    display: flex;
+    padding: 1%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container-2{
+  display: flex;
+  margin: 1%;
+  padding: 1%;
+  justify-content: space-between;
+}
+.dot{
+    color: grey;
+    padding-bottom: 1%;
+}
+.desc{
+    width: 60%;
+    overflow-wrap:break-word;
+}
+.body-container{
+    display: flex;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+.container-4{
+    display: flex;
+    margin: 3%;
+    list-style-type: none;
+}
+.filter img{
+    height: 1.7rem;
+}
+.filter{
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1.2px solid #bababa6a;
+   margin: 0rem 1.2rem;
+   font-size: 130%;
+}
+.heading-6{
+    color:rgb(219, 57, 84) ;
+    font-size: 170%;
+    margin: 3rem 3rem;
+}
+.filter-btn{
+    border: none;
+    background-color: white;
+    padding: 0.6rem 0rem;
+    cursor: pointer;
+    margin: 0rem 3rem;
+    font-size: 100%;
+    color: rgb(219, 57, 84);
+}
+.filter-btn--active{
+    border-bottom: 2px solid red;
+}
+.filter-txt1{
+    display: flex;
+    padding: 0.6rem 0rem;
+    color: #7c7c7c;
+    margin-left: 2rem;
+}
+
