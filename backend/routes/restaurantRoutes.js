@@ -13,7 +13,6 @@ router.use('/:restaurantId/dishes',dishRoutes);
 
 router.patch('/updateMe',restaurantController.updateMe);
 router.patch('/updateMyPassword',authController.updateRestaurantPassword);
-router.delete('/deleteMe',restaurantController.deleteMe);
 router.get('/me',authController.protectRestaurant,
 restaurantController.getMe,
 restaurantController.getRestaurant);
