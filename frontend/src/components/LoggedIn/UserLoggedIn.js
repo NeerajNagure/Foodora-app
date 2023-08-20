@@ -6,7 +6,7 @@ import Cookies from 'js-cookie';
 import './UserLoggedIn.css';
 import SortRestaurants from './SortRestaurants';
 import { useState } from 'react';
-const ENDPOINT='https://foodora-api.onrender.com/'
+const ENDPOINT='https://foodora-api.onrender.com/api/v1/'
 
 function UserLoggedIn(){
     const data=useLoaderData();

@@ -5,7 +5,7 @@ import Cookies from "js-cookie";
 import axios from "axios";
 import { json,useLoaderData,Link,useParams } from "react-router-dom";
 import { useAlert } from "react-alert";
-const ENDPOINT='https://foodora-api.onrender.com/'
+const ENDPOINT='https://foodora-api.onrender.com/api/v1/'
 
 function RestaurantLoggedIn(){
     const dishes=useLoaderData().dishes;

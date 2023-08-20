@@ -38,11 +38,11 @@
     display: block;
 }
 .link{
-    margin:1.5rem 6.5rem;
+    margin: 1.5rem 6.5rem;
     border: 3px solid rgb(219, 57, 84);
     background-color:rgb(219, 57, 84);
     border-radius: 20px;
-    margin-top:1;
+    margin-top: 1rem;
     padding: 10px;
     padding-left: 1rem;
     padding-right: 1rem;

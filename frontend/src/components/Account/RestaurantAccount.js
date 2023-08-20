@@ -7,7 +7,7 @@ import axios from "axios";
 import { json, useLoaderData } from "react-router-dom";
 import { useAlert } from "react-alert";
 import SideNav from "./SideNav";
-const ENDPOINT='https://foodora-api.onrender.com/'
+const ENDPOINT='https://foodora-api.onrender.com/api/v1/'
 
 const RestaurantAccount=()=>{
     const restaurant=useLoaderData();
